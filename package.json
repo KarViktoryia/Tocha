@@ -1,7 +1,7 @@
 {
   "name": "bolierplate-parce",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. `git clone https://github.com/KarViktoryia/bolierplate-parce.git`\r 2. `cd ./ bolierplate-parce`\r 3. `npm install`\r 4. `npm run dev`",
   "main": "index.js",
   "scripts": {
     "dev": "parcel index.html --open",

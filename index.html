@@ -4,15 +4,261 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bolierplate Parcel.Js</title>
+    <script src="https://kit.fontawesome.com/98db508811.js" crossorigin="anonymous"></script>
+    <title>Tocha</title>
 
     <link rel="stylesheet" href="./src/scss/app.scss">
     <script src="./src/javascript/app.js"></script>
 
 </head>
 <body>
-
-    <h1>Bolierplate Parcel.Js</h1>
-
+    <header>
+        <div class="container">
+          <div class="header__container">
+            <div class="header__logo">
+              <img src="/src/img/logo.png" alt="logo">
+              <p>tocha</p>
+            </div>
+            <ul class="header__menu">
+              <li><a href="#">Подключение</a></li>
+              <li><a href="#">Оплата</a></li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Вход</a></li>
+            </ul>
+            <div class="header__mobile">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+          <div class="header__wrap">
+            <div class="header__item">
+              <div class="header__title">
+                <h1><span>Telegram чат</span> на вашем сайте</h1>
+              </div>  
+              <div class="header__text">
+                Общение с клиентами станет простым и удобным, а подключение займет 5 минут. Первый месяц — <span>бесплатно!</span>
+              </div>
+              <div class="header__button">
+                <a href="#">Расчет стоимости</a>
+              </div>
+            </div>
+            <div class="header__img">
+              <img src="/src/img/ilustration.png" alt="ilustration">
+            </div>
+          </div>  
+      </header>
+    
+      <section class="online">
+        <div class="container">
+          <h1 class="online__title">Tocha Online — это</h1>
+          <div class="online__row">
+            <div class="online__items">
+              <div class="online__item">
+                <div class="online__img">
+                  <img src="/src/img/superfluous.png" alt="superfluous">
+                </div>
+                <div class="online__text">
+                  <h4>Ничего лишнего</h4>
+                  <p>Отсутствие лишних приложений для операторов. Оператору не нужно учиться работать с чатом</p>
+                </div>
+              </div>
+              <div class="online__item">
+                <div class="online__img">
+                  <img src="/src/img/simplicity.png" alt="simplicity">
+                </div>
+                <div class="online__text">
+                  <h4>Простота</h4>
+                  <p>Простая установка на сайт</p>
+                </div>
+              </div>
+              <div class="online__item">
+                <div class="online__img">
+                  <img src="/src/img/assistants.png" alt="assistants">
+                </div>
+                <div class="online__text">
+                  <h4>Несколько ассистентов</h4>
+                  <p>Возможность подключения нескольких ассистентов</p>
+                </div>
+              </div>
+              <div class="online__item">
+                <div class="online__img">
+                  <img src="/src/img/customization.png" alt="customization">
+                </div>
+                <div class="online__text">
+                  <h4>Кастомизация</h4>
+                  <p>Настройка интерфейса под нужды сайта</p>
+                </div>
+              </div>
+            </div>
+            <div class="online__image">
+              <img src="/src/img/bg_online.png" alt="bg_online">
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="tariffs">
+        <div class="container tariffs__container">
+          <h1>Тарифы</h1>
+          <p>Стоимость зависит от трафика сайта</p>
+          <div class="tariffs__items">
+            <div class="tariffs__item">
+              <span>Бесплатно</span>
+              <h4 class="tariffs__title">Пробный период на 1 месяц</h4>
+              <div class="tariffs__text">0₽/первый месяц</div>
+              <div class="tariffs__button">
+                <a href="#">Подключить за 0₽</a>
+              </div>
+            </div>
+            <div class="tariffs__item">
+              <span>Бесплатно</span>
+              <h4 class="tariffs__title">Менее 1000 посещений в сутки</h4>
+              <div class="tariffs__text">200₽/месяц</div>
+              <div class="tariffs__button">
+                <a href="#">Подключить за 200₽/месяц</a>
+              </div>
+            </div>
+            <div class="tariffs__item">
+              <span>Бесплатно</span>
+              <h4 class="tariffs__title">Более 1000
+                посещений в сутки</h4>
+              <div class="tariffs__text">500₽/месяц</div>
+              <div class="tariffs__button">
+                <a href="#">Подключить за 500₽/месяц</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="steps">
+        <div class="container">
+         <h1 class="steps__title">
+          Всего 3 шага для подключения Telegram чата
+         </h1>
+         <div class="steps__img">
+           <img src="/src/img/lines.png" alt="lines">
+         </div>
+         <div class="steps__row">
+          <div class="steps__item">
+            <span>1</span>
+            <h4>Telegram bot</h4>
+            <p>Вы создаёте Telegram бота для вашего сайта</p>
+            <img src="/src/img/iPhone_one.png" alt="iPhone_one">
+          </div>
+          <div class="steps__item">
+            <span>2</span>
+            <h4>Подключение Tocha</h4>
+            <p>Tocha подключает Telegram бота к вашиму сайту</p>
+            <img src="/src/img/iPhone_two.png" alt="iPhone_two">
+          </div>
+          <div class="steps__item">
+            <span>3</span>
+            <h4>Telegram-чат</h4>
+            <p>Консультант отвечает на вопросы посетителей сайта</p>
+            <img src="/src/img/iPhone_three.png" alt="iPhone_three">
+          </div>
+         </div>
+        </div>
+      </section>
+    
+      <section class="reviews">
+        <div class="container">
+          <div class="reviews__title">
+            <h1>Отзывы клиентов</h1>
+            <img src="/src/img/quote_mark.png" alt="quote_mark">
+          </div>
+          <div class="reviews__row">
+            <div class="reviews__items">
+              <div class="reviews__item">
+                <h4>Как же удобно!</h4>
+                <p>В рамках спецификации современных стандартов, базовые сценарии поведения пользователей, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут преданы социально-демократической анафеме.</p>
+              </div>
+              <div class="reviews__wrap">
+                <img src="/src/img/photo_girl.png" alt="photo_girl">
+                <div class="reviews__text">
+                  <h4>Анна Купер</h4>
+                  <a href="#">romashka.ru</a>
+                </div>
+              </div>
+            </div>
+            <div class="reviews__items">
+              <div class="reviews__item">
+                <h4>Теперь мы идем в ногу со временем</h4>
+                <p>А ещё интерактивные прототипы превращены в посмешище, хотя само их существование приносит несомненную пользу обществу. Банальные, но неопровержимые выводы, а также тщательные исследования конкурентов формируют сеть.</p>
+              </div>
+              <div class="reviews__wrap">
+                <img src="/src/img/photo_guy.png" alt="photo_guy">
+                <div class="reviews__text">
+                  <h4>Андрей Васильев</h4>
+                  <a href="#">samogon-ont.ru</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="connection">
+        <div class="container">
+          <div class="connection__wrap">
+            <div class="connection__img">
+              <img src="/src/img/telegram_chat.png" alt="telegram_chat">
+            </div>
+            <div class="connection__item">
+              <div class="connection__title">
+                Подключите Telegram чат уже сегодня
+              </div>
+              <div class="connection__form input-group">
+                <input type="text" class="form-control" placeholder="Введите e-mail" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-dark" type="button" id="button-addon2">Отправить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <footer>
+        <div class="container">
+          <div class="footer__wrap">
+            <div class="footer__item">
+              <div class="footer__logo">
+                <img src="/src/img/logo.png" alt="logo">
+                <p>tocha</p>
+              </div>
+            </div>
+            <div class="footer__item">
+              <div class="footer__title">
+                Telegram чат
+              </div>
+              <div class="footer__text">
+                <p>О нас</p>
+                <p>Партнеры</p>
+                <p>Инструкция</p>
+                <p>Цены</p>
+                <p>Цены</p>
+              </div>
+            </div>
+            <div class="footer__item">
+              <div class="footer__title">
+                Поддержка
+              </div>
+              <div class="footer__text">
+                <p>Центр поддержки</p>
+                <p>Политика конфеденциальности</p>
+                <p>Документы оферта</p>
+                <p>Документы оферта</p>
+                <p>Статус</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+            <div class="footer-copyright__text">
+              © 2021 Tocha. Все права защищены
+            </div>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
